@@ -66,7 +66,6 @@
                                     </li>
                                     <li class="nav-item user-search mt-3">
                                         <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-                                        <a class="nav-link" href="#"><i class="fa-regular fa-circle-user"></i></a>
                                     </li>
                                 </ul>
                             </div>
@@ -145,12 +144,10 @@
             </div>
         </div>
     </div>
+    <!-- pc header -->
     <div class="top_header" id="top_header">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-3">
-                    <a class="navbar-brand" href="#"><img src="images/logo.png" class="img-fluid" alt="logo"></a>
-                </div>
                 <div class="col-md-6">
                     <div class="contact_links">
                         <div class="contact_box">
@@ -185,7 +182,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-6">
                     <div class="rightheader_panel">
                         <div class="flag">
                             <a href="#">
@@ -227,14 +224,17 @@
     <div class="header" id="header">
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <div class="col-md-12">
+                <div class="col-md-4">
+                    <a class="navbar-brand" href="#"><img src="images/logo-white.png" class="img-fluid" alt="logo"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
+                </div>
+                <div class="col-md-8">
                     <div class="collapse navbar-collapse w-100" id="navbarSupportedContent">
-                        <ul class="navbar-nav mb-2 mb-lg-0 w-100">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item active">
                                 <a class="nav-link" aria-current="page" href="#">Acceuil</a>
                             </li>
@@ -250,9 +250,6 @@
                             <li class="nav-item d-flex">
                                 <a class="nav-link" href="#">Contact</a> <span class="divider">|</span>
                                 <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="fa-regular fa-circle-user"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -743,21 +740,12 @@
                             PLUS</a>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="newsletter-form">
-                        <h3 class="hld mb-4">NOTRE NEWSLETTER</h3>
-                        <form action="">
-                            <input type="email" placeholder="vatre mail...." class="form-control">
-                            <input type="submit" value="Send Now" class="form-control">
-                        </form>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
 
     <!-- evenments -->
-    <div class="evenments" id="evenments">
+    <div class="evenments cp60" id="evenments">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -769,268 +757,70 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="post_tab">
-                        <ul class="nav nav-pills mb-3 justify-content-end" id="pills-tab" role="tablist">
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link menu_btn active" id="pills-toutes-tab" data-bs-toggle="pill"
-                                    data-bs-target="#pills-toutes" type="button" role="tab" aria-controls="pills-toutes"
-                                    aria-selected="true">Toutes
-                                </button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link menu_btn" id="pills-actualites-tab" data-bs-toggle="pill"
-                                    data-bs-target="#pills-actualites" type="button" role="tab"
-                                    aria-controls="pills-actualites" aria-selected="false">Actualites</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link menu_btn" id="pills-evenments-tab" data-bs-toggle="pill"
-                                    data-bs-target="#pills-evenments" type="button" role="tab"
-                                    aria-controls="pills-evenments" aria-selected="false">Evenments</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link menu_btn" id="pills-ceremonies-tab" data-bs-toggle="pill"
-                                    data-bs-target="#pills-ceremonies" type="button" role="tab"
-                                    aria-controls="pills-ceremonies" aria-selected="false">Ceremonies</button>
-                            </li>
-                        </ul>
+                    <div class="post_buttons text-end">
+                        <a href="#" class="btn btn-post active">Toutes</a>
+                        <a href="#" class="btn btn-post">Actualites</a>
+                        <a href="#" class="btn btn-post">Evenments</a>
+                        <a href="#" class="btn btn-post">Ceremonies</a>
                     </div>
                 </div>
-                <div class="col-md-12 mt-5">
-
-                    <!-- toutes -->
-                    <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane active" id="pills-toutes" role="tabpanel"
-                            aria-labelledby="pills-toutes-tab">
-                            <div class="owl-carousel">
-                                <div class="post_card">
-                                    <div class="post_card_img">
-                                        <img src="images/post-images.png" class="img-fluid" alt="post_img1">
-                                        <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
-                                    </div>
-                                    <div class="post_card_content">
-                                        <p>CATEGORIE</p>
-                                        <h3>TITRE DE L’EVENT</h3>
-                                        <h4>DATE</h4>
-                                    </div>
-                                </div>
-                                <div class="post_card">
-                                    <div class="post_card_img">
-                                        <img src="images/post-images2.png" class="img-fluid" alt="post_img2">
-                                        <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
-                                    </div>
-                                    <div class="post_card_content">
-                                        <p>CATEGORIE</p>
-                                        <h3>TITRE DE L’EVENT</h3>
-                                        <h4>DATE</h4>
-                                    </div>
-                                </div>
-                                <div class="post_card">
-                                    <div class="post_card_img">
-                                        <img src="images/post-images2.png" class="img-fluid" alt="post_img2">
-                                        <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
-                                    </div>
-                                    <div class="post_card_content">
-                                        <p>CATEGORIE</p>
-                                        <h3>TITRE DE L’EVENT</h3>
-                                        <h4>DATE</h4>
-                                    </div>
-                                </div>
-                                <div class="post_card">
-                                    <div class="post_card_img">
-                                        <img src="images/post-images2.png" class="img-fluid" alt="post_img2">
-                                        <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
-                                    </div>
-                                    <div class="post_card_content">
-                                        <p>CATEGORIE</p>
-                                        <h3>TITRE DE L’EVENT</h3>
-                                        <h4>DATE</h4>
-                                    </div>
-                                </div>
-                                <div class="post_card">
-                                    <div class="post_card_img">
-                                        <img src="images/post-images2.png" class="img-fluid" alt="post_img2">
-                                        <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
-                                    </div>
-                                    <div class="post_card_content">
-                                        <p>CATEGORIE</p>
-                                        <h3>TITRE DE L’EVENT</h3>
-                                        <h4>DATE</h4>
-                                    </div>
-                                </div>
-                                <div class="post_card">
-                                    <div class="post_card_img">
-                                        <img src="images/post-images2.png" class="img-fluid" alt="post_img2">
-                                        <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
-                                    </div>
-                                    <div class="post_card_content">
-                                        <p>CATEGORIE</p>
-                                        <h3>TITRE DE L’EVENT</h3>
-                                        <h4>DATE</h4>
-                                    </div>
-                                </div>
-                            </div>
+            </div>
+            <div class="row mt-3 gx-5 gy-5">
+                <div class="col-md-6">
+                    <div class="post_card">
+                        <div class="post_card_img">
+                            <img src="images/post-images.png" class="img-fluid" alt="post_img1">
+                            <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                        <div class="post_card_content">
+                            <p>CATEGORIE</p>
+                            <h3>TITRE DE L’EVENT</h3>
+                            <h4>DATE</h4>
                         </div>
                     </div>
-
-                    <!-- actualites -->
-                    <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane" id="pills-actualites" role="tabpanel"
-                            aria-labelledby="pills-actualites-tab">
-                            <div class="owl-carousel">
-                                <div class="post_card">
-                                    <div class="post_card_img">
-                                        <img src="images/post-images.png" class="img-fluid" alt="post_img1">
-                                        <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
-                                    </div>
-                                    <div class="post_card_content">
-                                        <p>CATEGORIE</p>
-                                        <h3>TITRE DE L’EVENT</h3>
-                                        <h4>DATE</h4>
-                                    </div>
-                                </div>
-                                <div class="post_card">
-                                    <div class="post_card_img">
-                                        <img src="images/post-images2.png" class="img-fluid" alt="post_img2">
-                                        <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
-                                    </div>
-                                    <div class="post_card_content">
-                                        <p>CATEGORIE</p>
-                                        <h3>TITRE DE L’EVENT</h3>
-                                        <h4>DATE</h4>
-                                    </div>
-                                </div>
-                                <div class="post_card">
-                                    <div class="post_card_img">
-                                        <img src="images/post-images2.png" class="img-fluid" alt="post_img2">
-                                        <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
-                                    </div>
-                                    <div class="post_card_content">
-                                        <p>CATEGORIE</p>
-                                        <h3>TITRE DE L’EVENT</h3>
-                                        <h4>DATE</h4>
-                                    </div>
-                                </div>
-                            </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="post_card">
+                        <div class="post_card_img">
+                            <img src="images/post-images2.png" class="img-fluid" alt="post_img2">
+                            <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                        <div class="post_card_content">
+                            <p>CATEGORIE</p>
+                            <h3>TITRE DE L’EVENT</h3>
+                            <h4>DATE</h4>
                         </div>
                     </div>
-
-                    <!-- evenments -->
-                    <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane" id="pills-evenments" role="tabpanel"
-                            aria-labelledby="pills-evenments-tab">
-                            <div class="owl-carousel">
-                                <div class="post_card">
-                                    <div class="post_card_img">
-                                        <img src="images/post-images.png" class="img-fluid" alt="post_img1">
-                                        <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
-                                    </div>
-                                    <div class="post_card_content">
-                                        <p>CATEGORIE</p>
-                                        <h3>TITRE DE L’EVENT</h3>
-                                        <h4>DATE</h4>
-                                    </div>
-                                </div>
-                                <div class="post_card">
-                                    <div class="post_card_img">
-                                        <img src="images/post-images2.png" class="img-fluid" alt="post_img2">
-                                        <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
-                                    </div>
-                                    <div class="post_card_content">
-                                        <p>CATEGORIE</p>
-                                        <h3>TITRE DE L’EVENT</h3>
-                                        <h4>DATE</h4>
-                                    </div>
-                                </div>
-                                <div class="post_card">
-                                    <div class="post_card_img">
-                                        <img src="images/post-images2.png" class="img-fluid" alt="post_img2">
-                                        <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
-                                    </div>
-                                    <div class="post_card_content">
-                                        <p>CATEGORIE</p>
-                                        <h3>TITRE DE L’EVENT</h3>
-                                        <h4>DATE</h4>
-                                    </div>
-                                </div>
-                                <div class="post_card">
-                                    <div class="post_card_img">
-                                        <img src="images/post-images2.png" class="img-fluid" alt="post_img2">
-                                        <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
-                                    </div>
-                                    <div class="post_card_content">
-                                        <p>CATEGORIE</p>
-                                        <h3>TITRE DE L’EVENT</h3>
-                                        <h4>DATE</h4>
-                                    </div>
-                                </div>
-                                <div class="post_card">
-                                    <div class="post_card_img">
-                                        <img src="images/post-images2.png" class="img-fluid" alt="post_img2">
-                                        <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
-                                    </div>
-                                    <div class="post_card_content">
-                                        <p>CATEGORIE</p>
-                                        <h3>TITRE DE L’EVENT</h3>
-                                        <h4>DATE</h4>
-                                    </div>
-                                </div>
-                                <div class="post_card">
-                                    <div class="post_card_img">
-                                        <img src="images/post-images2.png" class="img-fluid" alt="post_img2">
-                                        <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
-                                    </div>
-                                    <div class="post_card_content">
-                                        <p>CATEGORIE</p>
-                                        <h3>TITRE DE L’EVENT</h3>
-                                        <h4>DATE</h4>
-                                    </div>
-                                </div>
-                            </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="post_card">
+                        <div class="post_card_img">
+                            <img src="images/post-images.png" class="img-fluid" alt="post_img1">
+                            <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                        <div class="post_card_content">
+                            <p>CATEGORIE</p>
+                            <h3>TITRE DE L’EVENT</h3>
+                            <h4>DATE</h4>
                         </div>
                     </div>
-
-                    <!-- ceremonies -->
-                    <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane" id="pills-ceremonies" role="tabpanel"
-                            aria-labelledby="pills-ceremonies-tab">
-                            <div class="owl-carousel">
-                                <div class="post_card">
-                                    <div class="post_card_img">
-                                        <img src="images/post-images.png" class="img-fluid" alt="post_img1">
-                                        <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
-                                    </div>
-                                    <div class="post_card_content">
-                                        <p>CATEGORIE</p>
-                                        <h3>TITRE DE L’EVENT</h3>
-                                        <h4>DATE</h4>
-                                    </div>
-                                </div>
-                                <div class="post_card">
-                                    <div class="post_card_img">
-                                        <img src="images/post-images2.png" class="img-fluid" alt="post_img2">
-                                        <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
-                                    </div>
-                                    <div class="post_card_content">
-                                        <p>CATEGORIE</p>
-                                        <h3>TITRE DE L’EVENT</h3>
-                                        <h4>DATE</h4>
-                                    </div>
-                                </div>
-                                <div class="post_card">
-                                    <div class="post_card_img">
-                                        <img src="images/post-images2.png" class="img-fluid" alt="post_img2">
-                                        <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
-                                    </div>
-                                    <div class="post_card_content">
-                                        <p>CATEGORIE</p>
-                                        <h3>TITRE DE L’EVENT</h3>
-                                        <h4>DATE</h4>
-                                    </div>
-                                </div>
-                            </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="post_card">
+                        <div class="post_card_img">
+                            <img src="images/post-images2.png" class="img-fluid" alt="post_img2">
+                            <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                        <div class="post_card_content">
+                            <p>CATEGORIE</p>
+                            <h3>TITRE DE L’EVENT</h3>
+                            <h4>DATE</h4>
                         </div>
                     </div>
-
+                </div>
+                <div class="col-md-12 text-center">
+                    <a href="#" class="btn btn-general btn-gen2"><i class="fa-solid fa-chevron-right"></i>EN SAVOIR
+                        PLUS</a>
                 </div>
             </div>
         </div>
@@ -1041,9 +831,19 @@
         <div class="container">
             <div class="row gy-5">
                 <div class="col-md-12">
+                    <div class="newsletter-form footer-news">
+                        <h3 class="hld mb-3">NOTRE NEWSLETTER</h3>
+                        <form action="">
+                            <input type="email" placeholder="vatre mail...." class="form-control">
+                            <input type="submit" value="Send Now" class="form-control">
+                        </form>
+                    </div>
+                    <hr>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-12">
                     <div class="footer_logo">
                         <img src="images/footer-logo.png" class="img-fluid" alt="footer-logo">
-                        <hr>
+
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-6 col-md-12">
@@ -1056,8 +856,7 @@
                             </div>
                             <div class="contact_details">
                                 <h4>Siege Social</h4>
-                                <p>Avenu de France <br>
-                                    Congo Bravviles</p>
+                                <p>Avenu de France</p>
                             </div>
                         </div>
                         <div class="contact_box">
@@ -1066,8 +865,7 @@
                             </div>
                             <div class="contact_details">
                                 <h4>Telephones</h4>
-                                <p>A(+242) 06 600 00 00 <br>
-                                    (+242) 05 500 00 00</p>
+                                <p>(+242) 06 600 00 00</p>
                             </div>
                         </div>
                         <div class="contact_box">
@@ -1076,8 +874,7 @@
                             </div>
                             <div class="contact_details">
                                 <h4>Mail</h4>
-                                <p><a href="mailto:contact@nanofinance.com">contact@nanofinance.com</a> <br>
-                                    <a href="mailto:info@nanofinance.com">info@nanofinance.com</a>
+                                <p><a href="mailto:contact@nanofinance.com">contact@nanofinance.com</a>
                                 </p>
                             </div>
                         </div>
@@ -1131,15 +928,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-lg-6 col-md-12 foot-news">
-                    <div class="newsletter-form footer-news">
-                        <h3 class="hld mb-3">NOTRE NEWSLETTER</h3>
-                        <form action="">
-                            <input type="email" placeholder="vatre mail...." class="form-control">
-                            <input type="submit" value="Send Now" class="form-control">
-                        </form>
-                    </div>
-                </div>
+
             </div>
         </div>
     </div>

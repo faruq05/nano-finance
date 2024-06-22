@@ -1,473 +1,334 @@
-<div class="menu_tab wow fadeInDown" data-wow-duration="2s" data-wow-delay="0">
-    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-        <li class="nav-item" role="presentation">
-            <button class="nav-link menu_btn active" id="pills-csgo-tab" data-bs-toggle="pill"
-                data-bs-target="#pills-csgo" type="button" role="tab" aria-controls="pills-csgo"
-                aria-selected="true">COUNTER-STRIKE: GO
-            </button>
-        </li>
-        <li class="nav-item" role="presentation">
-            <button class="nav-link menu_btn" id="pills-rust-tab" data-bs-toggle="pill"
-                data-bs-target="#pills-rust" type="button" role="tab" aria-controls="pills-rust"
-                aria-selected="false">RUST</button>
-        </li>
-        <li class="nav-item" role="presentation">
-            <button class="nav-link menu_btn" id="pills-tf-tab" data-bs-toggle="pill"
-                data-bs-target="#pills-tf" type="button" role="tab" aria-controls="pills-tf"
-                aria-selected="false">TEAM FORTRESS 2</button>
-        </li>
-        <li class="nav-item" role="presentation">
-            <button class="nav-link menu_btn" id="pills-gm-tab" data-bs-toggle="pill"
-                data-bs-target="#pills-gm" type="button" role="tab" aria-controls="pills-gm"
-                aria-selected="false"> GARRY’S MOD</button>
-        </li>
-        <li class="nav-item" role="presentation">
-            <button class="nav-link menu_btn" id="pills-fivem-tab" data-bs-toggle="pill"
-                data-bs-target="#pills-fivem" type="button" role="tab" aria-controls="pills-fivem"
-                aria-selected="false"> FIVEM</button>
-        </li>
-    </ul>
+<div class="col-md-6">
+    <div class="post_tab">
+        <ul class="nav nav-pills mb-3 justify-content-end" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link menu_btn active" id="pills-toutes-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-toutes" type="button" role="tab" aria-controls="pills-toutes"
+                    aria-selected="true">Toutes
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link menu_btn" id="pills-actualites-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-actualites" type="button" role="tab" aria-controls="pills-actualites"
+                    aria-selected="false">Actualites</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link menu_btn" id="pills-evenments-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-evenments" type="button" role="tab" aria-controls="pills-evenments"
+                    aria-selected="false">Evenments</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link menu_btn" id="pills-ceremonies-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-ceremonies" type="button" role="tab" aria-controls="pills-ceremonies"
+                    aria-selected="false">Ceremonies</button>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="col-md-12 mt-5">
 
-
+    <!-- toutes -->
     <div class="tab-content" id="pills-tabContent">
-        <!-- csgo tab content -->
-        <div class="tab-pane fade active show" id="pills-csgo" role="tabpanel"
-            aria-labelledby="pills-csgo-tab">
-            <div class="owl-carousel game_carousel">
-                <div class="gameboard">
-                    <div class="gboard">
-                        <div class="gmode">
-                            <img src="images/Rectangle 30.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="player">
-                            <div class="player_info d-flex align-items-center">
-                                <img src="images/user.png" class="img-fluid" alt="">
-                                <p>32/32</p>
-                            </div>
-                            <div class="map player_info d-flex align-items-center">
-                                <img src="images/map.png" class="img-fluid" alt="">
-                                <p>DE_DUST_2</p>
-                            </div>
-                        </div>
-                        <div class="gamesave">
-                            <h4>CASUAL/FUN 2.0</h4>
-                        </div>
-                        <div class="playgame">
-                            <a href="#" class="copy-link" data-target="#div16"><img
-                                    src="images/layer.png" class="img-fluid" alt=""></a>
-                            <p id="div16">casual.paradisegaming.net:27015</p>
-                            <a href="#"><img src="images/play.png" class="img-fluid" alt=""></a>
-                        </div>
+        <div class="tab-pane active" id="pills-toutes" role="tabpanel" aria-labelledby="pills-toutes-tab">
+            <div class="owl-carousel">
+                <div class="post_card">
+                    <div class="post_card_img">
+                        <img src="images/post-images.png" class="img-fluid" alt="post_img1">
+                        <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                    <div class="post_card_content">
+                        <p>CATEGORIE</p>
+                        <h3>TITRE DE L’EVENT</h3>
+                        <h4>DATE</h4>
                     </div>
                 </div>
-
-                <div class="gameboard">
-                    <div class="gboard">
-                        <div class="gmode">
-                            <img src="images/csgoborad.png" class="img-fluid w-100" alt="">
-                        </div>
-                        <div class="player">
-                            <div class="player_info d-flex align-items-center">
-                                <img src="images/user.png" class="img-fluid" alt="">
-                                <p>32/32</p>
-                            </div>
-                            <div class="map player_info d-flex align-items-center">
-                                <img src="images/map.png" class="img-fluid" alt="">
-                                <p>DE_DUST_2</p>
-                            </div>
-                        </div>
-                        <div class="gamesave">
-                            <h4>CASUAL/FUN 2.0</h4>
-                        </div>
-                        <div class="playgame">
-                            <a href="#" class="copy-link" data-target="#div17"><img
-                                    src="images/layer.png" class="img-fluid" alt=""></a>
-                            <p id="div17">casual.paradisegaming.net:27015</p>
-                            <a href="#"><img src="images/play.png" class="img-fluid" alt=""></a>
-                        </div>
+                <div class="post_card">
+                    <div class="post_card_img">
+                        <img src="images/post-images2.png" class="img-fluid" alt="post_img2">
+                        <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                    <div class="post_card_content">
+                        <p>CATEGORIE</p>
+                        <h3>TITRE DE L’EVENT</h3>
+                        <h4>DATE</h4>
                     </div>
                 </div>
-
-                <div class="gameboard">
-                    <div class="gboard">
-                        <div class="gmode">
-                            <img src="images/Rectangle 31.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="player">
-                            <div class="player_info d-flex align-items-center">
-                                <img src="images/user.png" class="img-fluid" alt="">
-                                <p>32/32</p>
-                            </div>
-                            <div class="map player_info d-flex align-items-center">
-                                <img src="images/map.png" class="img-fluid" alt="">
-                                <p>DE_DUST_2</p>
-                            </div>
-                        </div>
-                        <div class="gamesave">
-                            <h4>CASUAL/FUN 2.0</h4>
-                        </div>
-                        <div class="playgame">
-                            <a href="#" class="copy-link" data-target="#div18"><img
-                                    src="images/layer.png" class="img-fluid" alt=""></a>
-                            <p id="div18">casual.paradisegaming.net:27015</p>
-                            <a href="#"><img src="images/play.png" class="img-fluid" alt=""></a>
-                        </div>
+                <div class="post_card">
+                    <div class="post_card_img">
+                        <img src="images/post-images2.png" class="img-fluid" alt="post_img2">
+                        <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                    <div class="post_card_content">
+                        <p>CATEGORIE</p>
+                        <h3>TITRE DE L’EVENT</h3>
+                        <h4>DATE</h4>
                     </div>
                 </div>
-
+                <div class="post_card">
+                    <div class="post_card_img">
+                        <img src="images/post-images2.png" class="img-fluid" alt="post_img2">
+                        <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                    <div class="post_card_content">
+                        <p>CATEGORIE</p>
+                        <h3>TITRE DE L’EVENT</h3>
+                        <h4>DATE</h4>
+                    </div>
+                </div>
+                <div class="post_card">
+                    <div class="post_card_img">
+                        <img src="images/post-images2.png" class="img-fluid" alt="post_img2">
+                        <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                    <div class="post_card_content">
+                        <p>CATEGORIE</p>
+                        <h3>TITRE DE L’EVENT</h3>
+                        <h4>DATE</h4>
+                    </div>
+                </div>
+                <div class="post_card">
+                    <div class="post_card_img">
+                        <img src="images/post-images2.png" class="img-fluid" alt="post_img2">
+                        <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                    <div class="post_card_content">
+                        <p>CATEGORIE</p>
+                        <h3>TITRE DE L’EVENT</h3>
+                        <h4>DATE</h4>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
 
-        <!-- Rust tab content -->
-        <div class="tab-pane fade" id="pills-rust" role="tabpanel" aria-labelledby="pills-rust-tab">
-            <div class="owl-carousel game_carousel">
-
-                <div class="gameboard">
-                    <div class="gboard">
-                        <div class="gmode">
-                            <img src="images/csgoborad.png" class="img-fluid w-100" alt="">
-                        </div>
-                        <div class="player">
-                            <div class="player_info d-flex align-items-center">
-                                <img src="images/user.png" class="img-fluid" alt="">
-                                <p>32/32</p>
-                            </div>
-                            <div class="map player_info d-flex align-items-center">
-                                <img src="images/map.png" class="img-fluid" alt="">
-                                <p>DE_DUST_2</p>
-                            </div>
-                        </div>
-                        <div class="gamesave">
-                            <h4>CASUAL/FUN 2.0</h4>
-                        </div>
-                        <div class="playgame">
-                            <a href="#" class="copy-link" data-target="#div17"><img
-                                    src="images/layer.png" class="img-fluid" alt=""></a>
-                            <p id="div17">casual.paradisegaming.net:27015</p>
-                            <a href="#"><img src="images/play.png" class="img-fluid" alt=""></a>
-                        </div>
+    <!-- actualites -->
+    <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane" id="pills-actualites" role="tabpanel" aria-labelledby="pills-actualites-tab">
+            <div class="owl-carousel">
+                <div class="post_card">
+                    <div class="post_card_img">
+                        <img src="images/post-images.png" class="img-fluid" alt="post_img1">
+                        <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                    <div class="post_card_content">
+                        <p>CATEGORIE</p>
+                        <h3>TITRE DE L’EVENT</h3>
+                        <h4>DATE</h4>
                     </div>
                 </div>
-
-                <div class="gameboard">
-                    <div class="gboard">
-                        <div class="gmode">
-                            <img src="images/Rectangle 30.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="player">
-                            <div class="player_info d-flex align-items-center">
-                                <img src="images/user.png" class="img-fluid" alt="">
-                                <p>32/32</p>
-                            </div>
-                            <div class="map player_info d-flex align-items-center">
-                                <img src="images/map.png" class="img-fluid" alt="">
-                                <p>DE_DUST_2</p>
-                            </div>
-                        </div>
-                        <div class="gamesave">
-                            <h4>CASUAL/FUN 2.0</h4>
-                        </div>
-                        <div class="playgame">
-                            <a href="#" class="copy-link" data-target="#div16"><img
-                                    src="images/layer.png" class="img-fluid" alt=""></a>
-                            <p id="div16">casual.paradisegaming.net:27015</p>
-                            <a href="#"><img src="images/play.png" class="img-fluid" alt=""></a>
-                        </div>
+                <div class="post_card">
+                    <div class="post_card_img">
+                        <img src="images/post-images2.png" class="img-fluid" alt="post_img2">
+                        <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                    <div class="post_card_content">
+                        <p>CATEGORIE</p>
+                        <h3>TITRE DE L’EVENT</h3>
+                        <h4>DATE</h4>
                     </div>
                 </div>
-
-                <div class="gameboard">
-                    <div class="gboard">
-                        <div class="gmode">
-                            <img src="images/Rectangle 31.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="player">
-                            <div class="player_info d-flex align-items-center">
-                                <img src="images/user.png" class="img-fluid" alt="">
-                                <p>32/32</p>
-                            </div>
-                            <div class="map player_info d-flex align-items-center">
-                                <img src="images/map.png" class="img-fluid" alt="">
-                                <p>DE_DUST_2</p>
-                            </div>
-                        </div>
-                        <div class="gamesave">
-                            <h4>CASUAL/FUN 2.0</h4>
-                        </div>
-                        <div class="playgame">
-                            <a href="#" class="copy-link" data-target="#div18"><img
-                                    src="images/layer.png" class="img-fluid" alt=""></a>
-                            <p id="div18">casual.paradisegaming.net:27015</p>
-                            <a href="#"><img src="images/play.png" class="img-fluid" alt=""></a>
-                        </div>
+                <div class="post_card">
+                    <div class="post_card_img">
+                        <img src="images/post-images2.png" class="img-fluid" alt="post_img2">
+                        <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                    <div class="post_card_content">
+                        <p>CATEGORIE</p>
+                        <h3>TITRE DE L’EVENT</h3>
+                        <h4>DATE</h4>
                     </div>
                 </div>
-
             </div>
         </div>
+    </div>
 
-        <!-- tf2 tab content -->
-        <div class="tab-pane fade" id="pills-tf" role="tabpanel" aria-labelledby="pills-tf-tab">
-            <div class="owl-carousel game_carousel">
-                <div class="gameboard">
-                    <div class="gboard">
-                        <div class="gmode">
-                            <img src="images/csgoborad.png" class="img-fluid w-100" alt="">
-                        </div>
-                        <div class="player">
-                            <div class="player_info d-flex align-items-center">
-                                <img src="images/user.png" class="img-fluid" alt="">
-                                <p>32/32</p>
-                            </div>
-                            <div class="map player_info d-flex align-items-center">
-                                <img src="images/map.png" class="img-fluid" alt="">
-                                <p>DE_DUST_2</p>
-                            </div>
-                        </div>
-                        <div class="gamesave">
-                            <h4>CASUAL/FUN 2.0</h4>
-                        </div>
-                        <div class="playgame">
-                            <a href="#" class="copy-link" data-target="#div17"><img
-                                    src="images/layer.png" class="img-fluid" alt=""></a>
-                            <p id="div17">casual.paradisegaming.net:27015</p>
-                            <a href="#"><img src="images/play.png" class="img-fluid" alt=""></a>
-                        </div>
+    <!-- evenments -->
+    <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane" id="pills-evenments" role="tabpanel" aria-labelledby="pills-evenments-tab">
+            <div class="owl-carousel">
+                <div class="post_card">
+                    <div class="post_card_img">
+                        <img src="images/post-images.png" class="img-fluid" alt="post_img1">
+                        <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                    <div class="post_card_content">
+                        <p>CATEGORIE</p>
+                        <h3>TITRE DE L’EVENT</h3>
+                        <h4>DATE</h4>
                     </div>
                 </div>
-
-                <div class="gameboard">
-                    <div class="gboard">
-                        <div class="gmode">
-                            <img src="images/Rectangle 30.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="player">
-                            <div class="player_info d-flex align-items-center">
-                                <img src="images/user.png" class="img-fluid" alt="">
-                                <p>32/32</p>
-                            </div>
-                            <div class="map player_info d-flex align-items-center">
-                                <img src="images/map.png" class="img-fluid" alt="">
-                                <p>DE_DUST_2</p>
-                            </div>
-                        </div>
-                        <div class="gamesave">
-                            <h4>CASUAL/FUN 2.0</h4>
-                        </div>
-                        <div class="playgame">
-                            <a href="#" class="copy-link" data-target="#div16"><img
-                                    src="images/layer.png" class="img-fluid" alt=""></a>
-                            <p id="div16">casual.paradisegaming.net:27015</p>
-                            <a href="#"><img src="images/play.png" class="img-fluid" alt=""></a>
-                        </div>
+                <div class="post_card">
+                    <div class="post_card_img">
+                        <img src="images/post-images2.png" class="img-fluid" alt="post_img2">
+                        <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                    <div class="post_card_content">
+                        <p>CATEGORIE</p>
+                        <h3>TITRE DE L’EVENT</h3>
+                        <h4>DATE</h4>
                     </div>
                 </div>
-
-                <div class="gameboard">
-                    <div class="gboard">
-                        <div class="gmode">
-                            <img src="images/Rectangle 31.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="player">
-                            <div class="player_info d-flex align-items-center">
-                                <img src="images/user.png" class="img-fluid" alt="">
-                                <p>32/32</p>
-                            </div>
-                            <div class="map player_info d-flex align-items-center">
-                                <img src="images/map.png" class="img-fluid" alt="">
-                                <p>DE_DUST_2</p>
-                            </div>
-                        </div>
-                        <div class="gamesave">
-                            <h4>CASUAL/FUN 2.0</h4>
-                        </div>
-                        <div class="playgame">
-                            <a href="#" class="copy-link" data-target="#div18"><img
-                                    src="images/layer.png" class="img-fluid" alt=""></a>
-                            <p id="div18">casual.paradisegaming.net:27015</p>
-                            <a href="#"><img src="images/play.png" class="img-fluid" alt=""></a>
-                        </div>
+                <div class="post_card">
+                    <div class="post_card_img">
+                        <img src="images/post-images2.png" class="img-fluid" alt="post_img2">
+                        <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                    <div class="post_card_content">
+                        <p>CATEGORIE</p>
+                        <h3>TITRE DE L’EVENT</h3>
+                        <h4>DATE</h4>
                     </div>
                 </div>
-
+                <div class="post_card">
+                    <div class="post_card_img">
+                        <img src="images/post-images2.png" class="img-fluid" alt="post_img2">
+                        <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                    <div class="post_card_content">
+                        <p>CATEGORIE</p>
+                        <h3>TITRE DE L’EVENT</h3>
+                        <h4>DATE</h4>
+                    </div>
+                </div>
+                <div class="post_card">
+                    <div class="post_card_img">
+                        <img src="images/post-images2.png" class="img-fluid" alt="post_img2">
+                        <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                    <div class="post_card_content">
+                        <p>CATEGORIE</p>
+                        <h3>TITRE DE L’EVENT</h3>
+                        <h4>DATE</h4>
+                    </div>
+                </div>
+                <div class="post_card">
+                    <div class="post_card_img">
+                        <img src="images/post-images2.png" class="img-fluid" alt="post_img2">
+                        <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                    <div class="post_card_content">
+                        <p>CATEGORIE</p>
+                        <h3>TITRE DE L’EVENT</h3>
+                        <h4>DATE</h4>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
 
-        <!-- gmod tab content -->
-        <div class="tab-pane fade" id="pills-gm" role="tabpanel" aria-labelledby="pills-gm-tab">
-            <div class="owl-carousel game_carousel">
-                <div class="gameboard">
-                    <div class="gboard">
-                        <div class="gmode">
-                            <img src="images/Rectangle 30.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="player">
-                            <div class="player_info d-flex align-items-center">
-                                <img src="images/user.png" class="img-fluid" alt="">
-                                <p>32/32</p>
-                            </div>
-                            <div class="map player_info d-flex align-items-center">
-                                <img src="images/map.png" class="img-fluid" alt="">
-                                <p>DE_DUST_2</p>
-                            </div>
-                        </div>
-                        <div class="gamesave">
-                            <h4>CASUAL/FUN 2.0</h4>
-                        </div>
-                        <div class="playgame">
-                            <a href="#" class="copy-link" data-target="#div16"><img
-                                    src="images/layer.png" class="img-fluid" alt=""></a>
-                            <p id="div16">casual.paradisegaming.net:27015</p>
-                            <a href="#"><img src="images/play.png" class="img-fluid" alt=""></a>
-                        </div>
+    <!-- ceremonies -->
+    <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane" id="pills-ceremonies" role="tabpanel" aria-labelledby="pills-ceremonies-tab">
+            <div class="owl-carousel">
+                <div class="post_card">
+                    <div class="post_card_img">
+                        <img src="images/post-images.png" class="img-fluid" alt="post_img1">
+                        <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                    <div class="post_card_content">
+                        <p>CATEGORIE</p>
+                        <h3>TITRE DE L’EVENT</h3>
+                        <h4>DATE</h4>
                     </div>
                 </div>
-
-                <div class="gameboard">
-                    <div class="gboard">
-                        <div class="gmode">
-                            <img src="images/Rectangle 31.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="player">
-                            <div class="player_info d-flex align-items-center">
-                                <img src="images/user.png" class="img-fluid" alt="">
-                                <p>32/32</p>
-                            </div>
-                            <div class="map player_info d-flex align-items-center">
-                                <img src="images/map.png" class="img-fluid" alt="">
-                                <p>DE_DUST_2</p>
-                            </div>
-                        </div>
-                        <div class="gamesave">
-                            <h4>CASUAL/FUN 2.0</h4>
-                        </div>
-                        <div class="playgame">
-                            <a href="#" class="copy-link" data-target="#div18"><img
-                                    src="images/layer.png" class="img-fluid" alt=""></a>
-                            <p id="div18">casual.paradisegaming.net:27015</p>
-                            <a href="#"><img src="images/play.png" class="img-fluid" alt=""></a>
-                        </div>
+                <div class="post_card">
+                    <div class="post_card_img">
+                        <img src="images/post-images2.png" class="img-fluid" alt="post_img2">
+                        <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                    <div class="post_card_content">
+                        <p>CATEGORIE</p>
+                        <h3>TITRE DE L’EVENT</h3>
+                        <h4>DATE</h4>
                     </div>
                 </div>
-
-                <div class="gameboard">
-                    <div class="gboard">
-                        <div class="gmode">
-                            <img src="images/csgoborad.png" class="img-fluid w-100" alt="">
-                        </div>
-                        <div class="player">
-                            <div class="player_info d-flex align-items-center">
-                                <img src="images/user.png" class="img-fluid" alt="">
-                                <p>32/32</p>
-                            </div>
-                            <div class="map player_info d-flex align-items-center">
-                                <img src="images/map.png" class="img-fluid" alt="">
-                                <p>DE_DUST_2</p>
-                            </div>
-                        </div>
-                        <div class="gamesave">
-                            <h4>CASUAL/FUN 2.0</h4>
-                        </div>
-                        <div class="playgame">
-                            <a href="#" class="copy-link" data-target="#div17"><img
-                                    src="images/layer.png" class="img-fluid" alt=""></a>
-                            <p id="div17">casual.paradisegaming.net:27015</p>
-                            <a href="#"><img src="images/play.png" class="img-fluid" alt=""></a>
-                        </div>
+                <div class="post_card">
+                    <div class="post_card_img">
+                        <img src="images/post-images2.png" class="img-fluid" alt="post_img2">
+                        <a href="#" class="btn btn-go"><i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                    <div class="post_card_content">
+                        <p>CATEGORIE</p>
+                        <h3>TITRE DE L’EVENT</h3>
+                        <h4>DATE</h4>
                     </div>
                 </div>
-
-            </div>
-        </div>
-
-        <!-- fivem tab content -->
-        <div class="tab-pane fade" id="pills-fivem" role="tabpanel"
-            aria-labelledby="pills-fivem-tab">
-            <div class="owl-carousel game_carousel">
-
-                <div class="gameboard">
-                    <div class="gboard">
-                        <div class="gmode">
-                            <img src="images/csgoborad.png" class="img-fluid w-100" alt="">
-                        </div>
-                        <div class="player">
-                            <div class="player_info d-flex align-items-center">
-                                <img src="images/user.png" class="img-fluid" alt="">
-                                <p>32/32</p>
-                            </div>
-                            <div class="map player_info d-flex align-items-center">
-                                <img src="images/map.png" class="img-fluid" alt="">
-                                <p>DE_DUST_2</p>
-                            </div>
-                        </div>
-                        <div class="gamesave">
-                            <h4>CASUAL/FUN 2.0</h4>
-                        </div>
-                        <div class="playgame">
-                            <a href="#" class="copy-link" data-target="#div17"><img
-                                    src="images/layer.png" class="img-fluid" alt=""></a>
-                            <p id="div17">casual.paradisegaming.net:27015</p>
-                            <a href="#"><img src="images/play.png" class="img-fluid" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="gameboard">
-                    <div class="gboard">
-                        <div class="gmode">
-                            <img src="images/Rectangle 30.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="player">
-                            <div class="player_info d-flex align-items-center">
-                                <img src="images/user.png" class="img-fluid" alt="">
-                                <p>32/32</p>
-                            </div>
-                            <div class="map player_info d-flex align-items-center">
-                                <img src="images/map.png" class="img-fluid" alt="">
-                                <p>DE_DUST_2</p>
-                            </div>
-                        </div>
-                        <div class="gamesave">
-                            <h4>CASUAL/FUN 2.0</h4>
-                        </div>
-                        <div class="playgame">
-                            <a href="#" class="copy-link" data-target="#div16"><img
-                                    src="images/layer.png" class="img-fluid" alt=""></a>
-                            <p id="div16">casual.paradisegaming.net:27015</p>
-                            <a href="#"><img src="images/play.png" class="img-fluid" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="gameboard">
-                    <div class="gboard">
-                        <div class="gmode">
-                            <img src="images/Rectangle 31.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="player">
-                            <div class="player_info d-flex align-items-center">
-                                <img src="images/user.png" class="img-fluid" alt="">
-                                <p>32/32</p>
-                            </div>
-                            <div class="map player_info d-flex align-items-center">
-                                <img src="images/map.png" class="img-fluid" alt="">
-                                <p>DE_DUST_2</p>
-                            </div>
-                        </div>
-                        <div class="gamesave">
-                            <h4>CASUAL/FUN 2.0</h4>
-                        </div>
-                        <div class="playgame">
-                            <a href="#" class="copy-link" data-target="#div18"><img
-                                    src="images/layer.png" class="img-fluid" alt=""></a>
-                            <p id="div18">casual.paradisegaming.net:27015</p>
-                            <a href="#"><img src="images/play.png" class="img-fluid" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
     </div>
 
 </div>
+
+
+<style>
+    .owl-carousel {
+        box-shadow: 0px 4px 30px 0px #00000040;
+        border-radius: 60px;
+        padding: 50px;
+    }
+
+    .owl-carousel .owl-nav.disabled {
+        display: block;
+    }
+
+    .owl-carousel .owl-dots.disabled {
+        display: block;
+    }
+
+    .owl-dots {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        left: 48%;
+        transform: translateX(-50%);
+        bottom: -40px;
+        transition: .2s all ease-in-out;
+    }
+
+    .owl-dots .owl-dot span {
+        display: block;
+        width: 22px;
+        height: 15px;
+        border-radius: 50px;
+        background-color: var(--cs-orange);
+        margin: 5px;
+    }
+
+    .owl-dots .active span {
+        display: block;
+        width: 50px;
+        height: 15px;
+        border-radius: 50px;
+        background-color: var(--cs-orange);
+    }
+
+
+    .owl-next i {
+        font-size: 50px;
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: var(--cs-orange);
+    }
+
+    .owl-prev i {
+        font-size: 50px;
+        position: absolute;
+        left: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: var(--cs-orange);
+    }
+</style>
+
+
+<!-- <div class="col-md-6">
+                    <div class="newsletter-form">
+                        <h3 class="hld mb-4">NOTRE NEWSLETTER</h3>
+                        <form action="">
+                            <input type="email" placeholder="vatre mail...." class="form-control">
+                            <input type="submit" value="Send Now" class="form-control">
+                        </form>
+                    </div>
+                </div> -->
