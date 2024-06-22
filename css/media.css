@@ -1,4 +1,30 @@
 @media(max-width:1600px) {
+
+    h1 {
+        font-size: 52px;
+    }
+
+    h2 {
+        font-size: 38px !important;
+    }
+
+    h3 {
+        font-size: 30px !important;
+    }
+
+
+    p {
+        font-size: 18px !important;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        justify-content: space-evenly !important;
+    }
+
+    .contact_details p {
+        font-size: 14px !important;
+    }
+
     .sommes-video {
         width: 60%;
     }
@@ -6,9 +32,18 @@
     .sommes_content {
         padding: 50px 50px 50px 140px;
     }
+
+    .accordion-button {
+        font-size: 25px;
+    }
+
+    .cta h2 {
+        font-size: 28px !important;
+    }
 }
 
 @media(max-width:1399px) {
+
     .sommes-video {
         width: 60%;
         margin-right: -10%;
@@ -17,28 +52,13 @@
     .sommes_content {
         padding: 50px 50px 50px 120px;
     }
-
-
 }
 
 @media(max-width:1199px) {
 
     h1 {
-        font-size: 56px;
+        font-size: 48px;
     }
-
-    h2 {
-        font-size: 42px !important;
-    }
-
-    h3 {
-        font-size: 30px !important;
-    }
-
-    p {
-        font-size: 20px !important;
-    }
-
 
     .mobile_header {
         display: block;
@@ -104,10 +124,6 @@
 
     .cta {
         padding: 30px;
-    }
-
-    .cta h2 {
-        font-size: 28px !important;
     }
 
     .call img {
@@ -472,12 +488,6 @@
 }
 
 @media(max-width:575px) {
-    h1 {
-        font-size: 35px;
-    }
-}
-
-@media(max-width:375px) {
     h1 {
         font-size: 30px;
     }
