@@ -29,9 +29,6 @@
         padding: 50px 50px 50px 140px;
     }
 
-    .accordion-button {
-        font-size: 25px;
-    }
 
     .cta h2 {
         font-size: 28px !important;
@@ -114,9 +111,6 @@
 
     }
 
-    .accordion-button {
-        font-size: 25px;
-    }
 
     .cta {
         padding: 30px;
@@ -175,6 +169,10 @@
 
     .header {
         display: none;
+    }
+
+    .banner .row {
+        min-height: 40vh;
     }
 
     .ft_box {
@@ -317,6 +315,10 @@
         display: none;
     }
 
+    .banner {
+        padding: 100px 15px;
+    }
+
     .banner .row {
         min-height: 300px;
     }
@@ -331,11 +333,9 @@
 
     .accordion-button {
         font-size: 18px;
-    }
-
-    .accordion-button {
         padding: 10px;
     }
+
 
     .cta {
         flex-direction: column;
@@ -502,5 +502,9 @@
 
     .cp60 {
         padding: 60px 15px;
+    }
+
+    .banner {
+        padding: 80px 15px;
     }
 }

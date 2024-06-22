@@ -131,7 +131,7 @@ p {
 /* top header */
 
 .top_header {
-    padding: 20px 15px;
+    padding: 15px;
     background-color: var(--cs-white);
 }
 
@@ -148,7 +148,7 @@ p {
 
 .contact_box {
     display: flex;
-    align-items: end;
+    align-items: center;
 }
 
 .contact_details h4 {
@@ -157,8 +157,12 @@ p {
 }
 
 .contact_details p {
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 300;
+}
+
+.contact_details p a{
+    color: var(--cs-black);
 }
 
 .rightheader_panel {
@@ -374,7 +378,7 @@ p {
 }
 
 .accordion-button {
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 800;
 }
 
@@ -743,10 +747,6 @@ p {
 
 .offcanvas-start {
     padding: 20px;
-}
-
-.offcanvas-header {
-    justify-content: end;
 }
 
 .btn-offcanvas {
