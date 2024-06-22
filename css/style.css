@@ -99,9 +99,13 @@ p {
 }
 
 /* header */
-.navbar-expand-lg .navbar-nav .nav-link {
+.header .navbar-expand-lg .navbar-nav .nav-link {
     padding: 0;
-    padding: 0px 15px;
+    padding: 0px 30px;
+}
+
+.header .navbar-nav{
+    justify-content: center;
 }
 
 .nav-item a {
@@ -120,7 +124,7 @@ p {
     /* Change to your desired color */
 }
 
-.navbar-nav .nav-item.active .nav-link {
+.header .navbar-nav .nav-item.active .nav-link {
     font-weight: 500;
     color: var(--cs-orange);
 }
