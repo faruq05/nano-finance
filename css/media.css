@@ -111,6 +111,10 @@
 
     }
 
+    .btn-post {
+        margin: 0 5px 10px 0;
+    }
+
 
     .cta {
         padding: 30px;
@@ -118,10 +122,6 @@
 
     .call img {
         width: 80px;
-    }
-
-    #pills-tab {
-        gap: 15px 0px;
     }
 
     .foot-news {
@@ -243,10 +243,6 @@
 
     }
 
-    #pills-tab {
-        gap: 15px 0px;
-    }
-
     .post_card {
         padding: 0;
         margin: 10px;
@@ -263,12 +259,12 @@
         width: 33%;
     }
 
-    .owl-carousel {
-        border-radius: 30px;
-    }
-
     .foot-news {
         display: block;
+    }
+
+    .footer-news {
+        width: auto;
     }
 
 }
@@ -431,28 +427,6 @@
         text-align: start !important;
     }
 
-    #pills-tab {
-        margin-top: 20px;
-        justify-content: start !important;
-        align-items: center;
-        gap: 15px 0px;
-    }
-
-    .owl-carousel {
-        border-radius: 15px;
-        padding: 20px;
-    }
-
-    .owl-prev i {
-        left: -10px;
-        font-size: 30px;
-    }
-
-    .owl-next i {
-        right: -10px;
-        font-size: 30px;
-    }
-
     .post_card {
         padding: 0;
         margin: 5px;
@@ -469,12 +443,27 @@
         width: 33%;
     }
 
+    .post_buttons {
+        text-align: left !important;
+        display: flex;
+        margin-top: 30px;
+
+    }
+
+    .btn-post {
+        margin: 0 5px 0px 0;
+    }
+
     .footer_logo hr {
         width: auto;
     }
 
     .footer_box .contact_box .contact_icon {
         margin-right: 25px;
+    }
+
+    .footer-news {
+        width: auto;
     }
 
     .contact_box {
@@ -506,5 +495,16 @@
 
     .banner {
         padding: 80px 15px;
+    }
+
+    .post_buttons {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+
+    }
+
+    .btn-post {
+        margin: 0 15px 15px 0;
     }
 }
