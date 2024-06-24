@@ -21,21 +21,18 @@
         font-size: 14px !important;
     }
 
-    .sommes-video {
-        width: 60%;
-    }
-
     .sommes_content {
         padding: 50px 50px 50px 140px;
-    }
 
+    }
 
     .cta h2 {
         font-size: 28px !important;
     }
 }
 
-@media(max-width:1399px) {
+
+@media(max-width:1400px) {
 
     .sommes-video {
         width: 60%;
@@ -43,7 +40,12 @@
     }
 
     .sommes_content {
-        padding: 50px 50px 50px 120px;
+        padding: 50px 50px 50px 130px;
+        left: 0;
+    }
+
+    .sommes-video-container {
+        right: 0;
     }
 }
 
@@ -111,10 +113,6 @@
 
     }
 
-    .btn-post {
-        margin: 0 5px 10px 0;
-    }
-
 
     .cta {
         padding: 30px;
@@ -123,6 +121,7 @@
     .call img {
         width: 80px;
     }
+
 
     .foot-news {
         display: block;
@@ -228,6 +227,10 @@
         width: 50px;
     }
 
+    .nano_content {
+        padding: 30px 0px 0px 0px;
+    }
+
 
     .nano_content h2 {
         font-size: 70px !important;
@@ -265,6 +268,7 @@
 
     .footer-news {
         width: auto;
+        margin: auto;
     }
 
 }
@@ -427,6 +431,7 @@
         text-align: start !important;
     }
 
+
     .post_card {
         padding: 0;
         margin: 5px;
@@ -443,15 +448,9 @@
         width: 33%;
     }
 
-    .post_buttons {
-        text-align: left !important;
-        display: flex;
-        margin-top: 30px;
-
-    }
-
-    .btn-post {
-        margin: 0 5px 0px 0;
+    .footer-news {
+        width: auto;
+        margin: auto;
     }
 
     .footer_logo hr {
@@ -460,10 +459,6 @@
 
     .footer_box .contact_box .contact_icon {
         margin-right: 25px;
-    }
-
-    .footer-news {
-        width: auto;
     }
 
     .contact_box {
@@ -495,16 +490,5 @@
 
     .banner {
         padding: 80px 15px;
-    }
-
-    .post_buttons {
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: 30px;
-
-    }
-
-    .btn-post {
-        margin: 0 15px 15px 0;
     }
 }
